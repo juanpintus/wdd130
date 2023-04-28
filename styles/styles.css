@@ -1,3 +1,32 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+    height: 0 auto px;
+    line-height: 0.5;
+    letter-spacing: 2px;
+
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 15px;
+}
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 10px;
+}
