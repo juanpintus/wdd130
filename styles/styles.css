@@ -8,7 +8,7 @@ main {
 nav {
     background-color: steelblue;
     padding: 10px;
-    height: 0 auto px;
+    height: auto;
     line-height: 0.5;
     letter-spacing: 2px;
     
