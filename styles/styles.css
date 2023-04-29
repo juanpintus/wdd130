@@ -26,6 +26,7 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    border-radius: 20%;
 }
 p {
     padding: 10px;
