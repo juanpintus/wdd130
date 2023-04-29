@@ -2,13 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    max-width: 840px;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
     height: 0 auto px;
     line-height: 0.5;
     letter-spacing: 2px;
-
+    
 }
 
 nav a {
@@ -20,14 +23,39 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    border-radius: 20%;
+    border-radius: 5%;
+    
+}
+
+aside {
+    margin: 0em;
+    border: 1px solid rgba(0 ,0 ,0 , 0.2);
+    padding: 8px;
+    /* background-color: rgba(70, 131, 180, 0.866); */
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+
+}
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(55, 76, 118);
+    border-radius: 5%;
 }
 p {
-    padding: 10px;
+    padding: 0;
+}
+footer {
+    margin-top: 8px;
+    border-top: 1px dotted #333;
+    text-align: center;
 }
