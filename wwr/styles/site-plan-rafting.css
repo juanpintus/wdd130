@@ -1,5 +1,6 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+style {
+  @import Font(s): url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+}
 
 :root {
     --primary-color: #1D3557;
