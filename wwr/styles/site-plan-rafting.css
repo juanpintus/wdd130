@@ -8,10 +8,10 @@
     --heading-font: 'Roboto', medium;
     --paragraph-font: 'Open Sans', sans-serif;
 
-    --nav-background-color: #A8DADC;
+    --nav-background-color: #F1FAEE;
     --nav-link-color: #1D3557;
     --nav-hover-link-color: #F1FAEE;
-    --nav_hover-background-color: #1D3557;
+    --nav_hover-background-color: #E63946;
 }
 body {
     font-family: var(--paragraph-font);
