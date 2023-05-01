@@ -8,13 +8,13 @@ style {
     --accent1-color: #F1FAEE;
     --accent2-color: #E63946;
 
-    --heading-font: 'Roboto', sans-serif;
+    --heading-font: 'Roboto', medium;
     --paragraph-font: 'Open Sans', sans-serif;
 
     --nav-background-color: #F1FAEE;
     --nav-link-color: #1D3557;
     --nav-hover-link-color: #F1FAEE;
-    --nav_hover-background-color: #E63946;
+    --nav-hover-background-color: #E63946;
 }
 body {
     font-family: var(--paragraph-font);
@@ -51,5 +51,5 @@ nav a:link, nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav_hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
