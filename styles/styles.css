@@ -41,8 +41,12 @@ main img {
     
 }
 
-aside h2{
+aside {
     position: relative;
+}
+
+aside h2{
+    position: absolute;
     text-align: center;
  }
 aside img {
