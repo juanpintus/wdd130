@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+}
+:root {
+    --primary-color: #1D3557;
+    --secondary-color: #A8DADC;
+    --accent1-color: #F1FAEE;
+    --accent2-color: #E63946;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Open Sans', serif;
+
+    --nav-background-color: #F1FAEE;
+    --nav-link-color: #1D3557;
+    --nav-hover-link-color: #1D3557;
+    --nav-hover-background-color: #A8DADC;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding:  0.5rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+p {
+    padding: 25px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 340px;
+    left: 320px;
+    background-color: #f1faeec9;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.hero article {
+    position: absolute;
+    margin: 1px;
+    top: 480px;
+    left: 50px;
+    width: 900px;
+    height: 150px;
+    background-color: #f1faeec9;
+    color: var(--primary-color);
+}
+
+.hero article img {
+    margin: 20px;
+    width: 170px;
+    left: 10px;
+    float: right;
+}
+
+section img {
+    border-radius: 100%;
+}
