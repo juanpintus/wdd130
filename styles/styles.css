@@ -46,9 +46,9 @@ aside {
 }
 
 aside h2{
-    position: absolute;
-    text-align: center;
+    position: relative;
  }
+
 aside img {
     width: 200px;
     height: auto;
@@ -64,7 +64,6 @@ p {
 footer {
     margin-top: 8px;
     border-top: 1px dotted #333;
-    text-align: center;
 }
 
 /* Class Selectors */
@@ -74,7 +73,6 @@ footer {
     border: 1px solid rgba(0 ,0 ,0 , 0.2);
     background-color: #eee;
     color: #333;
-    text-align: center;
 
 }
 ul {
