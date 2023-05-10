@@ -9,53 +9,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-}
-
 main {
-    grid-column: 2 /  3;
-    margin: 1rem;
+    max-width: 840px;
 }
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
 nav {
     background-color: steelblue;
-    padding: 1rem;
-    /* height: auto; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* line-height: 1;
-    letter-spacing: 1px; */
+    padding: 10px;
+    height: auto;
+    line-height: 0.5;
+    letter-spacing: 2px;
     
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
+    padding: 15px;
 }
 h1 {
-    padding: 0.5rem;
     color: steelblue;
-    border-bottom: steelblue solid 2px;
-
 }
 
 main img {
