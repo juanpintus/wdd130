@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/rafting.css" />
   </head>
   <body>
+    <div class=".grid">
     <header>
       <img src="images/logo.png" alt="Rafting Site Logo" />
       <nav>
@@ -51,8 +52,8 @@
             </p>
         </article>
       </div>
-      <section>
-        <h2>History</h2>
+      <section class="history">
+        <h2>History</h2>    
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
           necessitatibus praesentium repudiandae, harum officia reprehenderit
@@ -61,23 +62,48 @@
           sit amet consectetur adipisicing elit. Ducimus, error? Facere deserunt
           officiis, ullam rem porro nemo quisquam ipsum delectus iusto. Expedita
           consectetur provident animi. Minus quis praesentium fugit optio.
-        </p>
+        </p>   
+        <img src="images/history-logo.jpg" alt="Rafting landscape">
+        <p2>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+          necessitatibus praesentium repudiandae, harum officia reprehenderit
+          eos facere tempora magni reiciendis molestias officiis minus,
+          assumenda porro veniam ipsam, consequatur cum quae. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Ducimus, error? Facere deserunt
+          officiis, ullam rem porro nemo quisquam ipsum delectus iusto. Expedita
+          consectetur provident animi. Minus quis praesentium fugit optio.
+        </p2>
       </section>
-      <section>
+      <section class="adventure">
         <h2>Adventure Awaits You!</h2>
-        <img src="images/rafting-example-1.jpg" alt="Rafting Example 1" />
-        <img
-          src="images/rafting-example-2.jpg"
-          alt="A Rafting Team carrying a boat"
-          width="300"
-        />
-        <img src="images/salmon-cabins.jpg" alt="Salmon Cabins" width="300" />
-        <img src="images/rafting-example-6.jpg" alt="Oars" />
-        <img
-          src="images/rafting-example-5.jpg"
-          alt="A rafting team"
-          width="700"
-        />
+        <div class="image-container">
+          <figure>
+            <img src="images/rafting-example-1.jpg" alt="Rafting Example 1" />
+            <figcaption>Los Rapidos</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/rafting-example-3.jpg"
+              alt="A rafting team on Water"
+            />
+            <figcaption>Against the Current</figcaption>
+          </figure>
+          <figure>
+            <img src="images/salmon-cabins.jpg" alt="Salmon Cabins"/>
+            <figcaption>The Cabins</figcaption>
+          </figure>
+          <figure>
+            <img src="images/rafting-example-6.jpg" alt="Oars" />
+            <figcaption>Heroes and Oars</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/rafting-example-5.jpg"
+              alt="A rafting team"
+            />
+            <figcaption>Teamwork</figcaption>
+          </figure>
+        </div>
       </section>
     </main>
     <footer>
@@ -94,5 +120,6 @@
         </a>
       </nav>
     </footer>
+  </div>
   </body>
 </html>

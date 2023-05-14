@@ -26,21 +26,47 @@ body {
     padding: 20px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    align-content: center;
+}
+
 header {
-    padding: 20px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    align-items: center;
+    align-content: center;
+    padding: 10px 40px 10px 40px;
     background-color: var(--accent1-color);
 }
+
+header img {
+    border-radius: 100%;
+}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1rem;
     display: flex;
+    justify-content: center;
+    border-radius: 100px;
+
 }
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding:  0.5rem;
+    border-radius: 100px;
+
 }
+
+nav img {
+    border-radius: 100px;
+}
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
@@ -101,6 +127,96 @@ p {
     float: right;
 }
 
-section img {
-    border-radius: 100%;
+/* ----- History Section ----- */
+
+.history {
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template: 20px 1fr / 1fr 1fr 1fr;
+    align-content: center ;
+    align-items: flex-end;
+
+}
+
+.history h2{
+    display: flex;
+    justify-content: center;
+    grid-area: 1/2;
+    align-content: center;
+    
+}
+
+.history p {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-align: left;
+    grid-area: 2/1;
+}
+
+.history p2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-align: left;
+    grid-area: 2/3;
+}
+
+.history img {
+    width: 300px;
+    padding: 5px;
+    border-radius: 10%;
+    align-items: center;
+    align-self: center;
+    grid-area: 2/2;
+}
+
+/* ----- Adventure Section ----- */
+
+.adventure{
+    margin: 10px;
+    padding: 10px;  
+
+}
+
+.adventure h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-container figure {
+    text-align: center;
+}
+
+.adventure img {
+    width: 185px;
+    border-radius: 10px;
+}
+
+/* ----- Footer Section ----- */
+
+footer {
+    margin: 10px;
+    background-color: var(--accent1-color);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+footer p{
+    text-align: center;
+
+}
+
+footer img {
+    padding: 10px;
 }
