@@ -7,7 +7,6 @@
     <title>WDD 130 | HTML Form - User Poll</title>
 
     <link rel="stylesheet" href="styles/poll-form.css" />
-
   </head>
   <body>
     <header>
@@ -17,32 +16,41 @@
       <form>
         <fieldset>
           <legend>Contact Information</legend>
-          <label for="fullname">Full Name:</label><br>
-          <input type="text" id="fullname" name="fullname" /><br>
-          <label for="useremail">Email:</label><br>
-          <input type="email" id="useremail" name="useremail" />
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" />
+          </div>
         </fieldset>
 
         <fieldset>
           <legend>Questions</legend>
-          <label for="browser">What is your favorite browser?</label><br>
-          <select name="browser" id="browser">
-            <option value="chrome">Chrome</option>
-            <option value="firefox">Firefox</option>
-            <option value="opera">Opera</option>
-            <option value="other">Other</option>
-          </select><br>
+          <div class="form-item column1">
+            <label for="browser">What is your favorite browser?</label>
+            <select name="browser" id="browser">
+              <option value="chrome">Chrome</option>
+              <option value="firefox">Firefox</option>
+              <option value="opera">Opera</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
 
-          <label for="pet">Do you have a household pet?</label><br>
-          <input type="checkbox" id="pet" name="pet" /><br>
-
-          <label for="feedback">List the places you have lived:</label><br>
-          <textarea
-            name="feedback"
-            id="feedback"
-            rows="4"
-            placeholder="Stillwater Florida, Amsterdam Netherlands, La Plata Buenos Aires"
-          ></textarea>
+          <div class="form-item column1">
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet" />
+          </div>
+          <div class="form-item">
+            <label class="textarea-label" for="feedback">List the places you have lived:</label>
+            <textarea
+              name="feedback"
+              id="feedback"
+              rows="4"
+              placeholder="Stillwater Florida, Amsterdam Netherlands, La Plata Buenos Aires"
+            ></textarea>
+          </div>
         </fieldset>
         <button type="submit">Submit Poll</button>
       </form>
