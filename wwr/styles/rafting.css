@@ -211,13 +211,17 @@ footer {
     background-color: var(--accent1-color);
     border-radius: 100px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 50px;
-}
+    }
 
 footer p{
     text-align: center;
+}
 
+footer a{
+    text-decoration: none;
 }
 
 footer img {
