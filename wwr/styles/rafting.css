@@ -223,3 +223,163 @@ footer p{
 footer img {
     padding: 10px;
 }
+
+
+
+/* -------------- Contact Us Page ------------- */
+
+.contact-us{
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ----- Our Team ----- */
+
+.employee{
+    margin: 7px;
+    padding: 7px;  
+}
+
+.employee h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.employee-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.employee-images figure {
+    text-align: center;
+}
+
+.employee img {
+    width: 250px;
+    padding: 3px;
+    border-radius: 100px;
+}
+
+
+/* ----- Company Information ----- */
+
+.company-info h2{
+    padding: 5px;
+}
+
+.company-info p{
+    padding: 8px;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    align-content: center ;
+    justify-content: center;
+    /* justify-content: space-around; */
+
+}
+.specific-info{
+    width: 100;
+    height: 250px;
+    margin: 20px;
+    padding: 50px;
+    background-color: var(--accent1-color);
+    border-radius: 30px;
+}
+
+.map{
+    padding: 8px;
+    border-radius: 100px;
+}
+
+
+/* ----- Message Form ----- */
+
+form {
+    width: 650px;
+    margin: 30px auto;
+    padding: 2.1rem;
+    text-align: center;
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+
+    
+    background-color: var(--secondary-color);
+}
+
+.user-info{
+    padding: 10px;
+}
+
+.message-form p{
+    padding: 0.5rem;
+}
+
+.message-purpose{
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+textarea{
+    padding: 5px;
+    max-width: 100%;
+    border-right: 1px solid;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+  background: var(--accent1-color);
+  border-radius: 10px;
+}
+
+.form-bottom{
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle; 
+}
+
+button{
+    margin: 20px;
+    width: 100px;
+    font-family: var(--paragraph-font) ;
+    padding: 10px;
+    border: none;
+    border-radius: 10rem;
+    color: var(--accent1-color);
+    background-color: var(--nav-link-color);
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: var(--accent2-color);
+  color: var(--accent1-color);
+}
