@@ -328,6 +328,8 @@ form {
 }
 
 input{
+    margin: 3px;
+    border: 0px;
     padding: 5px;
     border-radius: 10px;
     text-align: center;
@@ -336,7 +338,8 @@ input{
 textarea{
     padding: 5px;
     max-width: 100%;
-    border-right: 1px solid;
+    border: 0px;
+    border-bottom: 1px solid;
     resize: vertical;
     border-radius: 10px;
 }
@@ -345,6 +348,7 @@ textarea{
 input:focus,
 textarea:focus,
 select:focus {
+  /* border: 3px solid, var(--accent2-color); */
   background: var(--accent1-color);
   border-radius: 10px;
 }
