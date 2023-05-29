@@ -302,7 +302,7 @@ footer img {
 
 /* ----- Message Form ----- */
 
-form {
+.message-form {
     width: 650px;
     margin: 30px auto;
     padding: 2.1rem;
@@ -390,3 +390,48 @@ button:focus {
   background: var(--accent2-color);
   color: var(--accent1-color);
 }
+
+
+/* -------------- Contact Us Page ------------- */
+
+
+/* ----- Join link button----- */
+
+.join-link {
+    margin: 20px;
+    width: 100px;
+    padding: 30px;
+    display: flex;
+    /* align-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: var(--accent2-color);
+}
+
+.join-link a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+/* ----- Newsletter Form ----- */
+
+.newsletter{
+    width: 650px;
+    margin: 30px auto;
+    padding: 2.1rem;
+    text-align: center;
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    background-color: var(--secondary-color);
+
+}
+
+.newsletter legend{
+
+}
+
