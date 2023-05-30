@@ -392,8 +392,50 @@ button:focus {
 }
 
 
-/* -------------- Contact Us Page ------------- */
+/* -------------- Trips Page ------------- */
 
+.trip-section
+
+
+.trip-invitation{
+    margin: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.reservation{
+    margin: 20px;
+    width: 200px;
+    padding: 30px;
+    display: flex;
+    /* align-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: var(--accent2-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- Home page ------------- */
 
 /* ----- Join link button----- */
 
