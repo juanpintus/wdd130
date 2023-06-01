@@ -44,6 +44,8 @@ header {
 
 header img {
     border-radius: 100%;
+    box-shadow: 0 0 10px var(--primary-color);
+
 }
 
 nav {
@@ -233,7 +235,7 @@ footer img {
 /* -------------- Contact Us Page ------------- */
 
 .contact-us{
-    margin: 7px;
+    margin: 20px;
     padding: 10px;
     text-align: center;
 }
@@ -394,37 +396,154 @@ button:focus {
 
 /* -------------- Trips Page ------------- */
 
-.trip-section
-
-
 .trip-invitation{
-    margin: 7px;
+    margin: 20px;
     padding: 10px;
     text-align: center;
 }
 
-.reservation{
-    margin: 20px;
-    width: 200px;
-    padding: 30px;
-    display: flex;
-    /* align-content: center; */
-    /* align-items: center; */
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: var(--accent2-color);
+/* ----- Reservation button----- */
+
+.trip-section a{
+    text-decoration: none;
 }
 
 
+.reservation {
+    display: grid;
+    margin: 20px;
+    width: 220px;
+    padding: 25px;
+    color: var(--accent1-color);
+    border-radius: 50px;
+    background-color: var(--accent2-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+
+.reservation a{
+    font-size: larger;
+    color: var(--accent1-color);
+}
+
+.reservation:hover,
+.reservation:focus{
+    background: var(--secondary-color);
+    color: var(--primary-color-color);
+    box-shadow: none;
+    text-shadow: 0 0 3px var(--primary-color);
+}
 
 
+/* ----- Despcriptions----- */
+
+.trip-descriptions{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.trip-descriptions img{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+.trip-descriptions img:hover,
+.trip-descriptions img:focus{
+    box-shadow: none;
+}
+
+.description{
+    padding-bottom: 15px;
+
+}
+
+.description a{
+    color: var(--primary-color);
+}
+
+.description a:hover{
+    color: var(--accent1-color);
+}
+
+.description:hover,
+.description:focus{
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 30px var(--primary-color);
+}
 
 
+.view-buttom a{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 15px;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 8px var(--primary-color);
+    text-align: center;
+}
+.view-buttom a:hover,
+.view-buttom a:focus{
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    box-shadow: none;
+}
 
 
+/* ----- Adventures----- */
 
+.adventures-section{
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+}
+.adventures-section h2{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.adventures-1row{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.adventures-2row{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.adventure-option{
+    margin: 5px;
+    width: 200fr;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 30px;
+}
+
+.adventure-option:hover,
+.adventure-option:focus{
+    border-radius: 40px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 30px var(--primary-color);
+}
 
 
 
@@ -441,8 +560,9 @@ button:focus {
 
 .join-link {
     margin: 20px;
-    width: 100px;
-    padding: 30px;
+    width: 220px;
+    padding: 25px;
+    font-size: larger;
     display: flex;
     /* align-content: center; */
     /* align-items: center; */
