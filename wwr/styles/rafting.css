@@ -543,7 +543,6 @@ button:focus {
 .adventures-1row{
     margin: 20px;
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: 300px 300px 300px;
     text-align: center;
     justify-content: center;
@@ -553,7 +552,6 @@ button:focus {
 .adventures-2row{
     margin: 20px;
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: 300px 300px;
     text-align: center;
     justify-content: center;
