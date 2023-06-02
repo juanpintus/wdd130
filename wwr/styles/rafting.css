@@ -219,10 +219,12 @@ footer {
     }
 
 footer p{
+    color: var(--nav-link-color);
     text-align: center;
 }
 
 footer a{
+    color: var(--nav-link-color);
     text-decoration: none;
 }
 
@@ -231,8 +233,9 @@ footer img {
 }
 
 
-
+/*------------------------------------------------*/
 /* -------------- Contact Us Page ------------- */
+/*------------------------------------------------*/
 
 .contact-us{
     margin: 20px;
@@ -285,7 +288,6 @@ footer img {
     align-items: center;
     align-content: center ;
     justify-content: center;
-    /* justify-content: space-around; */
 
 }
 .specific-info{
@@ -314,7 +316,6 @@ footer img {
     align-items: center;
     align-content: center;
 
-    
     background-color: var(--secondary-color);
 }
 
@@ -353,7 +354,6 @@ textarea{
 input:focus,
 textarea:focus,
 select:focus {
-  /* border: 3px solid, var(--accent2-color); */
   background: var(--accent1-color);
   border-radius: 10px;
 }
@@ -394,7 +394,12 @@ button:focus {
 }
 
 
+
+
+/*------------------------------------------------*/
 /* -------------- Trips Page ------------- */
+/*------------------------------------------------*/
+
 
 .trip-invitation{
     margin-top: 20px;
@@ -551,17 +556,15 @@ button:focus {
 
 
 
-
-
-
-
-
-
+/*------------------------------------------------*/
 /* -------------- Home page ------------- */
+/*------------------------------------------------*/
+
 
 /* ----- Join link button----- */
 
 .join-link{
+    margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -594,17 +597,29 @@ button:focus {
 .newsletter{
     width: 650px;
     margin: 30px auto;
-    padding: 2.1rem;
+    padding: 1rem 5rem;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 50px;
     display: grid;
     align-items: center;
     align-content: center;
     background-color: var(--secondary-color);
-
 }
 
-.newsletter legend{
+.newsletter h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.name-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.name-email input{
+    text-size-adjust: 100px;
 }
 
