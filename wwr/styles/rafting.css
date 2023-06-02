@@ -397,7 +397,7 @@ input[type="radio"]{
 button{
     margin: 20px;
     width: 100px;
-    font-family: var(--paragraph-font) ;
+    font-family: var(--paragraph-font);
     padding: 10px;
     border: none;
     border-radius: 10rem;
@@ -649,7 +649,6 @@ button:focus {
 .name-email input{
     width: 220px;
     padding: 8px;
-    text-size-adjust: 100px;
 }
 
 .newsletter button{
