@@ -666,7 +666,8 @@ button:focus {
 .offerts{
     margin: 100px 10px ;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     align-content: center;
