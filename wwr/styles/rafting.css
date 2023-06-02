@@ -428,11 +428,7 @@ button:focus {
     border-radius: 50px;
     background-color: var(--accent2-color);
     box-shadow: 0 0 10px var(--primary-color);
-}
-
-.reservation a{
     font-size: larger;
-    color: var(--accent1-color);
 }
 
 .reservation a:hover,
@@ -440,7 +436,7 @@ button:focus {
     background: var(--secondary-color);
     color: var(--accent1-color);
     box-shadow: none;
-    text-shadow: 0 0 4px var(--primary-color);
+    text-shadow: 0 0 8px var(--primary-color);
 }
 
 
@@ -507,8 +503,8 @@ button:focus {
 /* ----- Adventures----- */
 
 .adventures-section{
-    margin-bottom: 80px;
-    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-top: 60px;
 
 }
 .adventures-section h2{
@@ -565,25 +561,33 @@ button:focus {
 
 /* ----- Join link button----- */
 
-.join-link {
-    margin: 20px;
-    width: 220px;
-    padding: 25px;
-    font-size: larger;
+.join-link{
+    margin-bottom: 30px;
     display: flex;
-    /* align-content: center; */
-    /* align-items: center; */
-    text-align: center;
-    justify-items: center;
     justify-content: center;
-    border-radius: 50px;
-    background-color: var(--accent2-color);
+    text-align: center;
 }
 
 .join-link a {
-    text-decoration: none;
+    margin: 20px;
+    width: 220px;
+    padding: 25px;
     color: var(--accent1-color);
+    border-radius: 50px;
+    background-color: var(--accent2-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    font-size: larger;
+    text-decoration: none;
 }
+
+.join-link a:hover,
+.join-link a:focus{
+    background: var(--secondary-color);
+    color: var(--accent1-color);
+    box-shadow: none;
+    text-shadow: 0 0 8px var(--primary-color);
+}
+
 
 /* ----- Newsletter Form ----- */
 
