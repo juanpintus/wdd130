@@ -4,6 +4,7 @@
 * {
     margin: 0;
 	padding: 0;
+
 }
 :root {
     --primary-color: #1D3557;
@@ -78,7 +79,7 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -105,9 +106,19 @@ p {
 .hero h1 {
     position: absolute;
     top: 340px;
-    left: 320px;
+    left: 335px;
     background-color: #f1faeec9;
     padding: 20px;
+    border-radius: 100px;
+}
+
+.home-page-h3 {
+    width: 100px;
+    position: absolute;
+    bottom: 469px;
+    left: 425px;
+    background-color: #f1faeec9;
+    padding: 10px;
     border-radius: 100px;
 }
 
@@ -120,6 +131,7 @@ p {
     height: 150px;
     background-color: #f1faeec9;
     color: var(--primary-color);
+    border-radius:10px;
 }
 
 .hero article img {
@@ -392,12 +404,14 @@ button{
     color: var(--accent1-color);
     background-color: var(--nav-link-color);
     cursor: pointer;
+    box-shadow: 0 0 10px var(--nav-hover-link-color);
 }
 
 button:hover,
 button:focus {
   background: var(--accent2-color);
   color: var(--accent1-color);
+  box-shadow: none;
 }
 
 
@@ -619,6 +633,7 @@ button:focus {
 }
 
 .name-email{
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -627,6 +642,32 @@ button:focus {
 }
 
 .name-email input{
+    width: 220px;
+    padding: 8px;
     text-size-adjust: 100px;
 }
 
+.newsletter button{
+    margin-top: 25px;
+}
+
+
+/* ----- Newsletter Form ----- */
+
+.offerts{
+    margin: 100px 10px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.offerts img{
+    width: 400px;
+    border-radius: 40px;
+}
+
+.offerts p{
+    padding: 15px 55px;
+}
