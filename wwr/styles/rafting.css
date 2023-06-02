@@ -112,15 +112,6 @@ p {
     border-radius: 100px;
 }
 
-.home-page-h3 {
-    width: 100px;
-    position: absolute;
-    bottom: 469px;
-    left: 425px;
-    background-color: #f1faeec9;
-    padding: 10px;
-    border-radius: 100px;
-}
 
 .hero article {
     position: absolute;
@@ -586,6 +577,20 @@ button:focus {
 /* -------------- Home page ------------- */
 /*------------------------------------------------*/
 
+
+/* ----- Home page header----- */
+
+
+.home-page-h3 {
+    width: 150px;
+    padding: 10px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 469px;
+    left: 400px;
+    text-align: center;
+    background-color: #f1faeec9;
+}
 
 /* ----- Join link button----- */
 
